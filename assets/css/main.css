@@ -1,0 +1,53 @@
+@import "./utilities/text.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media only screen and (max-width: 1024px) {
+    .top-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        min-width: 320px;
+        max-width: 420px;
+        background-color: #ffffff;
+    }
+
+    .head-container-black {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 320px;
+        max-width: 420px;
+        background-color: #000;
+    }
+
+    .bottom-nav-container {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 320px;
+        max-width: 420px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    .head-container {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 320px;
+        max-width: 420px;
+        background-color: #ffffff;
+    }
+
+    .head-container-noColor {
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 320px;
+        max-width: 420px;
+    }
+
+    .main-bg{
+        background-color: rgb(246, 250, 251);
+    }
+}

@@ -1,0 +1,90 @@
+.display-4-b {
+    @apply font-bold text-36xl leading-44 tracking-base;
+}
+.display-3-b {
+    @apply font-bold text-30xl leading-40 tracking-base;
+}
+.display-2-b {
+    @apply font-bold text-27xl leading-36 tracking-base;
+}
+.display-1-b {
+    @apply font-bold text-24xl leading-35 tracking-base;
+}
+.subhead-2-b {
+    @apply font-bold text-20xl leading-28 tracking-base;
+}
+.subhead-1-b {
+    @apply font-bold text-lg leading-30 tracking-base;
+}
+.body-3-b {
+    @apply font-bold text-lg leading-26 tracking-base;
+}
+.body-2-b {
+    @apply font-bold text-base leading-25 tracking-base;
+}
+.body-1-b {
+    @apply font-bold text-tiny leading-20 tracking-base;
+}
+.body-long-1-b {
+    @apply font-bold text-tiny leading-25 tracking-base;
+}
+.caption-long-b {
+    @apply font-bold text-sm leading-18 tracking-mcaption;
+}
+.caption-b {
+    @apply font-bold text-sm leading-18 tracking-mcaption2;
+}
+.label-b {
+    @apply font-bold text-xxs leading-label tracking-mcaption;
+}
+
+
+
+.subhead-2-m {
+    @apply font-medium text-20xl leading-28 tracking-base;
+}
+.subhead-1-m {
+    @apply font-medium text-lg leading-30 tracking-base;
+}
+.body-3-m {
+    @apply font-medium text-lg leading-26 tracking-base;
+}
+.body-long-2-m {
+    @apply font-medium text-base leading-28 tracking-base;
+}
+.body-2-m {
+    @apply font-medium text-base leading-28 tracking-base;
+}
+.body-1-m {
+    @apply font-medium text-tiny leading-20 tracking-base;
+}
+.caption-m {
+    @apply font-medium text-sm leading-18 tracking-mcaption2;
+}
+
+
+
+.subhead-2-r {
+    @apply font-normal text-20xl leading-30 tracking-base;
+}
+.subhead-1-r {
+    @apply font-normal text-lg leading-30 tracking-base;
+}
+.body-3-r {
+    @apply font-normal text-lg leading-26 tracking-base;
+}
+.body-2-r {
+    @apply font-normal text-base leading-25 tracking-base;
+}
+.body-long-2-r {
+    @apply font-normal text-base leading-28 tracking-base;
+}
+.body-1-r {
+    @apply font-normal text-tiny leading-20 tracking-base;
+}
+.body-long-1-r {
+    @apply font-normal text-tiny leading-25 tracking-base;
+}
+.caption-r {
+    @apply font-normal text-sm leading-18 tracking-mcaption2;
+}
