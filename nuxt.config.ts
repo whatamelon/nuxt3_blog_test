@@ -7,6 +7,16 @@ export default defineNuxtConfig({
         meta: [
           { name: 'description', content: 'My Azit' }
         ],
+        link:[
+          {
+            href:'https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css',
+            rel:'stylesheet'
+          },
+          {
+            href:'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css',
+            rel:'stylesheet'
+          }
+        ]
       }
     },
     css: [
@@ -22,4 +32,10 @@ export default defineNuxtConfig({
     modules: [
       '@nuxt/content'
     ],
+    build: { 
+      transpile: [
+        '@headlessui/vue',
+        '@headlessui/tailwindcss'
+      ] 
+    }
 })

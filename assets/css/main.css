@@ -4,6 +4,25 @@
 @tailwind utilities;
 
 
+.blog-content > h1 {
+    @apply font-bold text-27xl leading-36 tracking-base mb-4 text-coolgray-800;
+}
+.blog-content > h2 {
+    @apply font-bold text-20xl leading-28 tracking-base mb-6 text-coolgray-600;
+}
+.blog-content > h3 {
+    @apply font-normal text-lg leading-26 tracking-base text-coolgray-400 flex justify-end;
+}
+.blog-content > p > code {
+    padding: 1px 2px;
+    background-color: #e5e7eb;
+}
+.blog-content > hr {
+    margin: 20px 0;
+}
+
+
+
 @media only screen and (max-width: 1024px) {
     .top-container{
         margin-left: auto;

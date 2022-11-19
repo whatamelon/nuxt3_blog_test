@@ -40,6 +40,9 @@
 
 
 
+.subhead-long-2-m {
+    @apply font-medium text-20xl leading-24 tracking-base;
+}
 .subhead-2-m {
     @apply font-medium text-20xl leading-28 tracking-base;
 }
@@ -50,7 +53,7 @@
     @apply font-medium text-lg leading-26 tracking-base;
 }
 .body-long-2-m {
-    @apply font-medium text-base leading-28 tracking-base;
+    @apply font-medium text-base leading-20 tracking-base;
 }
 .body-2-m {
     @apply font-medium text-base leading-28 tracking-base;
@@ -64,11 +67,20 @@
 
 
 
+.display-3-r {
+    @apply font-normal text-30xl leading-35 tracking-base;
+}
+.display-1-r {
+    @apply font-medium text-24xl leading-36 tracking-base;
+}
 .subhead-2-r {
     @apply font-normal text-20xl leading-30 tracking-base;
 }
 .subhead-1-r {
     @apply font-normal text-lg leading-30 tracking-base;
+}
+.body-long-3-r {
+    @apply font-normal text-lg leading-28 tracking-base;
 }
 .body-3-r {
     @apply font-normal text-lg leading-26 tracking-base;
@@ -87,4 +99,195 @@
 }
 .caption-r {
     @apply font-normal text-sm leading-18 tracking-mcaption2;
+}
+
+
+
+@media screen(md) {
+    .md\:display-7-b {
+        @apply font-bold text-55xl leading-70 tracking-base;
+    }
+    .md\:display-6-b {
+        @apply font-bold text-45xl leading-60 tracking-base;
+    }
+    .md\:display-long-6-b {
+        @apply font-bold text-45xl leading-68 tracking-base;
+    }
+    .md\:display-5-b {
+        @apply font-bold text-40xl leading-52 tracking-base;
+    }
+    .md\:display-4-b {
+        @apply font-bold text-36xl leading-46 tracking-base;
+    }
+    .md\:display-long-4-b {
+        @apply font-bold text-36xl leading-53 tracking-base;
+    }
+    .md\:display-3-b {
+        @apply font-bold text-32xl leading-42 tracking-base;
+    }
+    .md\:display-2-b {
+        @apply font-bold text-28xl leading-40 tracking-base;
+    }
+    .md\:display-1-b {
+        @apply font-bold text-24xl leading-34 tracking-base;
+    }
+    .md\:headline-b {
+        @apply font-bold text-20xl leading-28 tracking-base;
+    }
+    .md\:subhead-3-b {
+        @apply font-bold text-base leading-22 tracking-base;
+    }
+    .md\:subhead-long-3-b {
+        @apply font-bold text-base leading-28 tracking-base;
+    }
+    .md\:subhead-2-b {
+        @apply font-bold text-tiny leading-20 tracking-base;
+    }
+    .md\:subhead-long-2-b {
+        @apply font-bold text-tiny leading-24 tracking-base;
+    }
+    .md\:subhead-1-b {
+        @apply font-bold text-sm leading-18 tracking-base;
+    }
+    .md\:body-3-b {
+        @apply font-bold text-lg leading-26 tracking-base;
+    }
+    .md\:body-2-b {
+        @apply font-bold text-base leading-24 tracking-base;
+    }
+    .md\:body-long-2-b {
+        @apply font-bold text-base leading-28 tracking-base;
+    }
+    .md\:body-1-b {
+        @apply font-bold text-tiny leading-20 tracking-base;
+    }
+    .md\:body-long-1-b {
+        @apply font-bold text-tiny leading-24 tracking-base;
+    }
+    .md\:caption-b {
+        @apply font-bold text-sm leading-18 tracking-base;
+    }
+    .md\:label-b {
+        @apply font-bold text-xs leading-16 tracking-base;
+    }
+    
+    
+    
+    .md\:display-5-m {
+        @apply font-medium text-40xl leading-52 tracking-base;
+    }
+    .md\:display-4-m {
+        @apply font-medium text-36xl leading-46 tracking-base;
+    }
+    .md\:display-3-m {
+        @apply font-medium text-32xl leading-53 tracking-base;
+    }
+    .md\:display-2-m {
+        @apply font-medium text-28xl leading-38 tracking-base;
+    }
+    .md\:display-long-2-m {
+        @apply font-medium text-28xl leading-45 tracking-base;
+    }
+    .md\:display-1-m {
+        @apply font-medium text-24xl leading-34 tracking-base;
+    }
+    .md\:headline-m {
+        @apply font-medium text-20xl leading-28 tracking-base;
+    }
+    .md\:subhead-3-m {
+        @apply font-medium text-base leading-22 tracking-base;
+    }
+    .md\:subhead-long-3-m {
+        @apply font-medium text-base leading-28 tracking-base;
+    }
+    .md\:subhead-2-m {
+        @apply font-medium text-tiny leading-20 tracking-base;
+    }
+    .md\:subhead-long-2-m {
+        @apply font-medium text-tiny leading-24 tracking-base;
+    }
+    .md\:subhead-1-m {
+        @apply font-medium text-sm leading-18 tracking-base;
+    }
+    .md\:body-3-m {
+        @apply font-medium text-lg leading-26 tracking-base;
+    }
+    .md\:body-2-m {
+        @apply font-medium text-base leading-24 tracking-base;
+    }
+    .md\:body-1-m {
+        @apply font-medium text-tiny leading-20 tracking-base;
+    }
+    .md\:body-long-1-m {
+        @apply font-medium text-tiny leading-24 tracking-base;
+    }
+    .md\:caption-m {
+        @apply font-medium text-sm leading-18 tracking-base;
+    }
+    .md\:label-m {
+        @apply font-medium text-xs leading-16 tracking-base;
+    }
+    
+    
+    
+    .md\:display-5-r {
+        @apply font-normal text-40xl leading-52 tracking-base;
+    }
+    .md\:display-4-r {
+        @apply font-normal text-36xl leading-46 tracking-base;
+    }
+    .md\:display-3-r {
+        @apply font-normal text-32xl leading-42 tracking-base;
+    }
+    .md\:display-2-r {
+        @apply font-normal text-28xl leading-38 tracking-base;
+    }
+    .md\:display-1-r {
+        @apply font-normal text-24xl leading-34 tracking-base;
+    }
+    .md\:display-long-1-r {
+        @apply font-normal text-24xl leading-42 tracking-base;
+    }
+    .md\:headline-r {
+        @apply font-normal text-20xl leading-28 tracking-base;
+    }
+    .md\:headline-long-r {
+        @apply font-normal text-20xl leading-35 tracking-base;
+    }
+    .md\:subhead-3-r {
+        @apply font-normal text-base leading-22 tracking-base;
+    }
+    .md\:subhead-long-3-r {
+        @apply font-normal text-base leading-28 tracking-base;
+    }
+    .md\:subhead-2-r {
+        @apply font-normal text-tiny leading-20 tracking-base;
+    }
+    .md\:subhead-long-2-r {
+        @apply font-normal text-tiny leading-24 tracking-base;
+    }
+    .md\:subhead-1-r {
+        @apply font-normal text-sm leading-18 tracking-base;
+    }
+    .md\:body-3-r {
+        @apply font-normal text-lg leading-26 tracking-base;
+    }
+    .md\:body-2-r {
+        @apply font-normal text-base leading-24 tracking-base;
+    }
+    .md\:body-long-2-r {
+        @apply font-normal text-base leading-28 tracking-base;
+    }
+    .md\:body-1-r {
+        @apply font-normal text-tiny leading-20 tracking-base;
+    }
+    .md\:body-long-1-r {
+        @apply font-normal text-tiny leading-24 tracking-base;
+    }
+    .md\:caption-r {
+        @apply font-normal text-sm leading-18 tracking-base;
+    }
+    .md\:label-r {
+        @apply font-normal text-xs leading-16 tracking-base;
+    }
 }
