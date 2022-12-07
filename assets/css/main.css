@@ -4,14 +4,21 @@
 @tailwind utilities;
 
 
+body{
+    background-color:#F3F4F6;
+}
+
 .blog-content > h1 {
-    @apply font-bold text-27xl leading-36 tracking-base mb-4 text-coolgray-800;
+    @apply font-bold text-30xl leading-36 tracking-base mb-4 text-coolgray-800;
 }
 .blog-content > h2 {
-    @apply font-bold text-20xl leading-28 tracking-base mb-6 text-coolgray-600;
+    @apply font-bold text-24xl leading-28 tracking-base mb-6 text-coolgray-600;
 }
 .blog-content > h3 {
-    @apply font-normal text-lg leading-26 tracking-base text-coolgray-400 flex justify-end;
+    @apply font-normal text-20xl leading-26 tracking-base text-coolgray-400 flex justify-end mb-8;
+}
+.blog-content > p {
+    @apply font-normal text-lg leading-24 tracking-base text-coolgray-800;
 }
 .blog-content > p > code {
     padding: 1px 2px;
@@ -30,7 +37,6 @@
         width: 100%;
         min-width: 320px;
         max-width: 420px;
-        background-color: #ffffff;
     }
 
     .head-container-black {

@@ -12,7 +12,7 @@ module.exports = {
   theme: {
     screens:{
       sm: "768px",
-      md: "1024px",
+      md: "876px",
     },
     container: {
       center:true,
@@ -25,7 +25,7 @@ module.exports = {
       },
       screens: {
         sm: "480px",
-        md: "1024px",
+        md: "876px",
       }
     },
     colors:{

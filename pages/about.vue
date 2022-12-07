@@ -3,7 +3,7 @@
     <h1 class="display-2-b md:display-5-b text-coolgray-800">안녕하세요<span class="display-1-b">👋</span><br /> 홍승호입니다.</h1>
 
     <section class="mt-12">
-        <h2 class="display-1-b md:display-3-b text-coolgray-800 mb-6">Career</h2>
+        <h2 class="display-1-b md:display-3-b text-coolgray-800 mb-4">Career</h2>
         <p class="body-long-3-r md:headline-long-r text-coolgray-500">스타트업의 개발자이자 코파운더로 약 4년간 의류시장에 도전하고 있습니다. <br/>
             처음 3년은 여성 패션 플랫폼 
             <NuxtLink to="https://play.google.com/store/apps/details?id=com.memory.and.fitchoo&hl=ko&gl=US&pli=1" target="_blank">
@@ -19,19 +19,19 @@
     </section>
 
     <section class="mt-12">
-        <h2 class="display-1-b md:display-3-b text-coolgray-800 mb-6">Me as a Developer</h2>
+        <h2 class="display-1-b md:display-3-b text-coolgray-800 mb-4">Me as a Developer</h2>
         <p class="body-long-3-r md:headline-long-r text-coolgray-500">
             진득하니 앉아있기를 잘하지는 못하지만, 문제를 해결함에서 오는 도파민 분비를 사랑합니다.<br/>
-            시작은 보잘것 없었으나, 점점 늘어가는 실력을 체감할 때면 기분이 좋습니다.<br/>
+            보잘것 없지만, 점점 늘어가는 실력을 체감할 때면 기분이 좋습니다.<br/>
             아무래도 중독됐습니다.
         </p>
     </section>
     
     <section class="mt-12 mb-20">
-        <h2 class="display-1-b md:display-3-b text-coolgray-800 mb-6">Me as a Builder</h2>
+        <h2 class="display-1-b md:display-3-b text-coolgray-800 mb-4">Me as a Builder</h2>
         <p class="body-long-3-r md:headline-long-r text-coolgray-500">
             제로베이스에서, 하루종일 회의를 하며, 사업을 상상할 때의 에너지를 사랑합니다.<br/>
-            상상을 현실로 만들고, 작동하는걸 체감할 때면 살아있음을 느낍니다.<br/>
+            상상을 현실로 만들고, 작동하는걸 체감할 때면 기분이 좋습니다.<br/>
             아무래도 중독됐습니다.
         </p>
     </section>
